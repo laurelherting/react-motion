@@ -1,8 +1,20 @@
 import React from 'react';
+import ReactDOM from 'react-dom';
 import { Spring, presets } from 'react-motion';
 
 class App extends React.Component {
   constructor() {
+    super();
+  }
+  render() {
+    return (
+      <div>animation goes here</div>
+    )
+  }
+}
+
+/*
+  constructor(){
     super();
     this.state = {
       items: Array.from(Array(18).keys())
@@ -64,6 +76,6 @@ class App extends React.Component {
     )
   }
 }
-
+*/
 
 ReactDOM.render(React.createElement(App), document.getElementById('app'));
