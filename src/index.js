@@ -2,7 +2,7 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import { Spring, presets } from 'react-motion';
 
-class App extends React.Component {
+/* class App extends React.Component {
   constructor() {
     super();
   }
@@ -12,14 +12,22 @@ class App extends React.Component {
     )
   }
 }
+*/
 
-/*
+class App extends React.Component {
   constructor(){
     super();
     this.state = {
       items: Array.from(Array(18).keys())
     };
   }
+  render() {
+    return (
+      <div>animation goes here</div>
+    )
+  }
+}
+/*
 
   getDefaults() {
     let obj = {};
