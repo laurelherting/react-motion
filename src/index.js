@@ -27,7 +27,6 @@ class App extends React.Component {
     )
   }
 }
-/*
 
   getDefaults() {
     let obj = {};
@@ -84,6 +83,6 @@ class App extends React.Component {
     )
   }
 }
-*/
+
 
 ReactDOM.render(React.createElement(App), document.getElementById('app'));
